@@ -22,7 +22,7 @@ function getdata(input){
 
     var userin = input.split(' ').join('+');
   var limit=15;
-    var url="http://api.giphy.com/v1/gifs/search?q="+userin+"&api_key=1TU6PRL5FU2rN7dOYLDvOxfrK3FGYbMI&limit="+limit+"";
+    var url="https://api.giphy.com/v1/gifs/search?q="+userin+"&api_key=1TU6PRL5FU2rN7dOYLDvOxfrK3FGYbMI&limit="+limit+"";
     // AJAX Request
 
     var ajax = new XMLHttpRequest();
